@@ -53,8 +53,8 @@ a {
 	color: #eee;
 	display: block;
 }
-#header .link a:hover, 
-#header .active a {
+
+#header .link a:hover, #header .active a {
 	background-color: #000;
 }
 #search{	

@@ -1,0 +1,108 @@
+html{     width:100%;    overflow-x:hidden;} 
+body 
+{  
+padding-bottom: 40px;
+}
+
+.container-fluid .text-muted{
+
+vertical-align:middle;
+	
+}
+nav{height:50px;
+	margin: 0 10% 0 10%;
+	background-color:orange;
+	boder-radius:5px;
+}
+nav ul {
+	padding:3px 1px 0 1px;
+}
+.page-header{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.container-fluid nav{
+border-radius: 5px;
+}
+
+.container-fluid ul li{
+	padding:1px;
+	font-size:20px;
+}
+.dropdown-menu{
+	padding: 0；
+	vertical-align: middle;
+	width:100%; /*子菜单跟父菜单一样的宽度*/
+	text-align:center;
+}
+.container{
+text-align:center;
+margin-left:11%;
+margin-right:11%;
+width: 98%;
+padding: 0;
+}
+#myCarousel {
+	border:1px solid white;
+	/* margin-left:5%; */
+	/* margin-right:5%; */
+	height: 500px;
+	width: 76%;
+ } 
+ .carousel-inner .item{
+ 	height: 500px;
+	padding:0;
+ }
+.carousel-inner .item img { margin: 0 auto; } /*使轮播图片居中*/
+
+/*form-download*/
+.well{
+	margin:10px 11%;
+	padding:5px;
+	text-align: center;
+}
+.well h4{
+	margin:0;
+	text-align: center;
+	font-family: 华文楷体;
+	font-size: 35px;
+	letter-spacing: 3px;
+}
+.panel{
+	
+	margin: auto 11%;
+	margin-bottom:5px;
+
+}
+
+.panel-body{
+	padding:0;
+}
+.table{
+	margin:0;
+	}
+.panel .panel-heading{
+	font-size: 16px;
+	color: orange;
+	font-weight: bold;
+}
+.panel .table tbody td{
+vertical-align: middle;
+}
+.panel .table tbody .btn{
+width: 80px;
+}
+
+
+footer{	
+	background-color: gray;
+	}
+	
+footer .container {
+	margin-left:2%;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	
+}
+

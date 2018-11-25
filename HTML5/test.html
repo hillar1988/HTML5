@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="basic.css">	
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" type="text/css" href="basic.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="java.js"></script>
 </head>
 <body>
 <header id="header"> 
@@ -15,8 +17,15 @@
 			<li class="active"><a href="###">首页</a></li>
 			<li><a href="###">旅游资讯</a></li>
 			<li><a href="###">机票订购</a></li> 
-			<li><a href="###">风景欣赏</a></li> 
-			<li><a href="###">公司简介</a></li> 
+			<li><a href="###" >风景欣赏</a></li> 
+			<li><a href="###" class="test1">公司简介</a>
+			    <ul class="test2" style="display: none;color:blue;">
+				<li><a href="###" style="color:blue;">公司简介</a></li>
+				<li><a href="###" style="color:blue;">公司简介1</a></li>
+				<li><a href="###" style="color:blue;">公司简介2</a></li>
+				<li><a href="###" style="color:blue;">公司简介3</a></li>
+			    </ul>
+			</li> 
 		</ul> 
     </nav> 
 </div> 
@@ -26,10 +35,11 @@
 	<div class="center">
     
 	</div>
-	<input type="text" class="search" placeholder="请输入旅游景点或城市">
+	<input id="text1" type="text" class="search" placeholder="请输入旅游景点或城市">
 	<button class="button">搜索</button>	
 </div>
-
+	<button id="show1" class="show">显示</button>	
+	<button class="hide">隐藏</button>	
 <div id="tour">
 	<section class="center">
 	<h2>热门旅游</h2>
@@ -107,4 +117,11 @@ Copyright ©YCKU 瓢城旅行社 | 苏ICP备120110119号 | 旅行社经营许可
 </footer>
 </body>
 </html>
+<script>
+$('#show1').dialog();
+</script>
+
+
+
+
 
